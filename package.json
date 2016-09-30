@@ -1,0 +1,41 @@
+{
+  "name": "vue2-boilerplate-demo",
+  "version": "1.0.0",
+  "description": "An vue2 boilerplate demo.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dashboard -- webpack-dev-server --inline --hot --no-info --history-api-fallback --port 8081"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-component": "^0.4.1",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-latest": "^6.14.0",
+    "css-loader": "^0.25.0",
+    "element-ui": "^1.0.0-rc.4",
+    "es6-promise": "^3.3.1",
+    "exports-loader": "^0.6.3",
+    "html-webpack-plugin": "^2.22.0",
+    "imports-loader": "^0.6.5",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.10.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "vue": "^2.0.0-rc.7",
+    "vue-hot-reload-api": "^1.3.3",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.2",
+    "vue-router": "^2.0.0-rc.5",
+    "vue-style-loader": "^1.0.0",
+    "vuex": "^2.0.0-rc.6",
+    "webpack": "^1.13.2",
+    "webpack-dashboard": "^0.1.8",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "whatwg-fetch": "^1.0.0"
+  }
+}
