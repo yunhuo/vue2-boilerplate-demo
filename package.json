@@ -1,6 +1,6 @@
 {
   "name": "vue2-boilerplate-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An vue2 boilerplate demo.",
   "main": "index.js",
   "scripts": {
