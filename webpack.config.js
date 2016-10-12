@@ -50,7 +50,7 @@ module.exports = {
         new CleanPlugin(['dist']),
         new HtmlWebpackPlugin({
             template: __dirname + '/src/index.tpl.html'
-        })
+        }),
         new webpack.ProvidePlugin({
             'Promise': 'es6-promise',
             'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
