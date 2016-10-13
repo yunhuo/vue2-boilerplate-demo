@@ -16,6 +16,7 @@ vue2 脚手架。
     - latest + vue-jsx 支持
     - promise 支持
     - async/await 支持
+    - ...(rest操作符) 支持
 - fetch
 
 # Wow such a small vue2-kit!

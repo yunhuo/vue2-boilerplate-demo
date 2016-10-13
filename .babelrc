@@ -1,6 +1,6 @@
 {
     "presets": ["latest"],
-    "plugins": ["transform-vue-jsx", ["component", [
+    "plugins": ["transform-vue-jsx", "transform-object-rest-spread", ["component", [
         {
             "libraryName": "element-ui",
             "styleLibraryName": "theme-default"
