@@ -15,7 +15,7 @@ vue2 脚手架。
 - babel
     - latest + vue-jsx 支持
     - promise 支持
-    - async 支持
+    - async/await 支持
 - fetch
 
 # uasge
