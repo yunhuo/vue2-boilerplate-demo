@@ -1,8 +1,8 @@
-# vue2-boilerplate-demo
+### vue2-boilerplate-demo
 
 vue2 脚手架。
 
-# content
+### content
 
 - vue2
 - vuex2
@@ -18,7 +18,7 @@ vue2 脚手架。
     - async 支持
 - fetch
 
-# uasge
+### uasge
 
 ```
 npm i
