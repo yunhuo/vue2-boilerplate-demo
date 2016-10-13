@@ -18,6 +18,10 @@ vue2 脚手架。
     - async/await 支持
 - fetch
 
+Wow such a small vue2-kit!
+
+![6cef4239-5a34-49a2-9342-a6e55821d67b](https://cloud.githubusercontent.com/assets/6868950/19335694/d725ccbc-9137-11e6-93a5-3456939f307a.png)
+
 # uasge
 
 ```
