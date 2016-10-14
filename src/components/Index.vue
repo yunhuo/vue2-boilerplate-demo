@@ -20,7 +20,6 @@
                     console.log(e);
                 }
                 console.log(this.data);
-                alert(this.data.APP[0].title);
             })();
         }
     };
