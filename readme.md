@@ -17,7 +17,7 @@ vue2 脚手架。
     - promise 支持
     - async/await 支持
     - ...(rest操作符) 支持
-- fetch & fetch-jsonp
+- fetch
 
 # Wow such a small vue2-kit!
 
