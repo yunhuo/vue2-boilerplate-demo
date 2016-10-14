@@ -30,10 +30,6 @@ module.exports = {
                 loaders: ['style', 'css', 'sass']
             },
             {
-                test: /\.(sass)$/,
-                loaders: ['style', 'css', 'sass?indentedSyntax']
-            },
-            {
                 test: /\.(eot|svg|ttf|woff|woff2)(\?t=\d+)?$/,
                 loader: 'file'
             },
@@ -52,8 +48,8 @@ module.exports = {
             template: __dirname + '/src/index.tpl.html'
         }),
         new webpack.ProvidePlugin({
-            'Promise': 'es6-promise',
-            'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
+            'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch',
+            'fetchJsonp': 'fetch-jsonp'
         }),
     ]
 };

@@ -4,7 +4,7 @@ import VueRouter from 'vue-router';
 import Index from './components/Index.vue';
 
 require('regenerator-runtime/runtime');  //async support
-require('es6-promise').polyfill();
+require('es6-promise/auto');
 require('isomorphic-fetch');
 
 Vue.use(Vuex);

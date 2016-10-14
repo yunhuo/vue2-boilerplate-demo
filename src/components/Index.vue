@@ -1,16 +1,27 @@
-<script>
+<template>
+    <p>{{greeting}}</p>
+</template>
 
+<script>
     export default {
         name: 'Index',
         data() {
             return {
-                greeting: 'hello vue2!'
-            }
+                greeting: 'hello vue2-boilerplate-demo!!'
+            };
         },
-        render(h) {
-            return (
-                <p>{this.greeting}</p>
-            );
+        created() {
+            (async () => {
+                console.log(123);
+                try{
+                    let res = await fetchJsonp('http://172.16.40.162:8081/data');
+                    this.data = await res.json();
+                }catch(e) {
+                    console.log(e);
+                }
+                console.log(this.data);
+                alert(this.data.APP[0].title);
+            })();
         }
     };
 </script>
