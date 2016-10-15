@@ -3,6 +3,7 @@ let webpack = require('webpack');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 let DashboardPlugin = require('webpack-dashboard/plugin');
 let CleanPlugin = require('clean-webpack-plugin');
+let autoprefixer = require('autoprefixer');
 
 module.exports = {
     entry: __dirname + '/src/entry.js',
@@ -42,6 +43,7 @@ module.exports = {
             }
         ]
     },
+    postcss:[autoprefixer({browser: ['last 2 versions']})],
     plugins: [
         new CleanPlugin(['dist']),
         new HtmlWebpackPlugin({
