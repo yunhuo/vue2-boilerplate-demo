@@ -48,11 +48,7 @@ module.exports = {
         new CleanPlugin(['dist']),
         new HtmlWebpackPlugin({
             template: __dirname + '/src/index.tpl.html'
-        }),
-        new webpack.ProvidePlugin({
-            'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch',
-            'fetchJsonp': 'fetch-jsonp'
-        }),
+        })
     ]
 };
 
